@@ -20,3 +20,4 @@ html(lang='en-us')
 
     block(name='javascript')
       script(src='js/main.js' defer)
+
