@@ -6,7 +6,7 @@ extends(src='layouts/default.sgr')
       content='Backroom creates deliberate brands for ambitious people.'
     )
   block(name='main')
-    div
+    div.tinted
       header
         a(href='/' id='mark')
           include(src='includes/_mark.sgr')
