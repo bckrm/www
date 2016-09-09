@@ -14,9 +14,25 @@
     fill: none
     stroke: white
 
-nav
-  & a
-    color: #fff
+  & nav
+    & a
+      color: #fff
+
+  & #hero
+    display: flex
+    margin: auto
+    max-width: 90%
+
+    & h1
+      color: #fff
+      font-size: 3em
+      line-height: 1.1em
+      text-align: center
+
+      @media (min-width: 48em)
+        font-size: 4em
+        max-width: 12em
+  
 
 
  
