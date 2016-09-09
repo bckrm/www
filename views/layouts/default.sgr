@@ -11,9 +11,9 @@ html(lang='en-us')
     block(name='stylesheets')
       link(rel='stylesheet' href='css/main.css')
 
-  body(role='document')
-    main(role='main' id='{{ pageId }}')
-      block(name='content')
+  body(id='{{ pageId }}')
+      
+      block(name='main')
 
     block(name='javascript')
       script(src='js/main.js' defer)
