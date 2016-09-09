@@ -12,4 +12,6 @@ extends(src='layouts/default.sgr')
           include(src='includes/_mark.sgr')
         // include(src='includes/_nav.sgr')
       h1 Backroom creates brands for people who collect Emmys.
+      a(href='http://www.earlylightmedia.com/blog/new-brand' id='elm-cta')
+        | See Our Work
 

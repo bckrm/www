@@ -4,9 +4,6 @@
   background-position: 50% 0
   background-repeat: no-repeat
   background-size: cover
-  display: flex
-  flex-direction: column
-  margin: 0
   min-height: 100vh
 
   & rect,
@@ -29,6 +26,19 @@
       font-size: 4em
       padding: 1em // if calc() is not supported
       padding: 1em calc(50% - 384px)
+
+  & #elm-cta
+    color: rgba(255, 255, 255, 0.8)
+    display: block
+    font-size: 2em
+    padding: 1em // if calc() is not supported
+    padding: 1em calc(50% - 192px)
+    text-align: center
+    text-decoration: none
+    transition: background-color .3s ease-in-out
+
+    &:hover
+      color: rgba(255, 255, 51, 0.8)
   
 
 
