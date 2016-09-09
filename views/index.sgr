@@ -10,8 +10,5 @@ extends(src='layouts/default.sgr')
       header
         a(href='/' id='mark')
           include(src='includes/_mark.sgr')
-        nav
-          ul
-            li:a(href='/blog') Blog
-            li:a(href='/contact') Contact
+        // include(src='includes/_nav.sgr')
 

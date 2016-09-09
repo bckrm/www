@@ -1,0 +1,4 @@
+nav
+  ul
+    li:a(href='/blog') Blog
+    li:a(href='/contact') Contact
