@@ -49,6 +49,33 @@ nav
     color: #000
     text-decoration: none
 
+/*  ================ footer ================ */
+
+footer
+  padding: 3em 1em 1em
+  text-align: center
+
+  @media (min-width: 48em)
+
+    & p
+      padding: 1em // if calc() is not supported
+      padding: 0 calc(50% - 384px)
+      padding-top: 2em
+
+  & small
+    display: inline-block
+    font-size: 0.8em
+    padding-top: 2em
+
+    & a
+      color: gray
+      letter-spacing: 2px
+      text-decoration: none
+
+      &:hover
+        color: currentColor
+
+
 /*  ================ mark ================ */
 
 #mark
