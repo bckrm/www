@@ -11,7 +11,7 @@ extends(src='layouts/default.sgr')
         a(href='/' id='mark')
           include(src='includes/_mark.sgr')
         // include(src='includes/_nav.sgr')
-      h1 Backroom creates brands for people who collect Emmys.
-      a(href='http://www.earlylightmedia.com/blog/new-brand' id='elm-cta')
+      h1 Backroom creates brands for people who collect Emmys
+      a(href='http://www.earlylightmedia.com/blog/new-brand' id='cta')
         | Launch Brand
 
