@@ -59,14 +59,15 @@ footer
 
     & p
       padding: 1em // if calc() is not supported
-      padding: 0 calc(50% - 384px)
+      padding: 0 calc(50% - 288px)
       padding-top: 2em
 
   & a
     color: currentColor
+    text-decoration: none
 
     &:hover
-      text-decoration: none
+      text-decoration: underline
 
 
   & small
@@ -81,6 +82,7 @@ footer
 
       &:hover
         color: currentColor
+        text-decoration: none
 
 
 /*  ================ mark ================ */
@@ -105,6 +107,16 @@ line
   background-color: darkslategray
   background-blend-mode: darken /* Safari does not support luminosity yet */
   background-blend-mode: overlay
+
+/*  ================ business address ================ */
+
+#adr
+  color: gray
+  font-size: 0.9em
+  padding-top: 2em
+
+  & p
+    padding: 0.5em
 
 
 

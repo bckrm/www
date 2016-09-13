@@ -17,7 +17,13 @@ html(lang='en-us')
       block(name='footer')
         footer
           p(md)
-            | Backroom creates deliberate brands for ambitious people. We believe great brands come from smarts, collaboration, art and iteration. Learn more [about us](about), read [our blog](https://medium.com/backroom) and [get in touch](contact).
+            | Backroom creates deliberate brands for ambitious people. We believe great brands come from smarts, collaboration, art and iteration.
+          #adr
+            p 2835 O'Donnell Street, Suite 201, Baltimore, MD 21224
+            p
+              a(href='tel:+14109292438') (410) 929-2438
+                |  &#10070; 
+              a(href='mailto:hello@backroom.io') hello@backroom.io
           small
             a(href='http://madewithloveinbaltimore.org')
               | Made with &#9825; in Baltimore.
