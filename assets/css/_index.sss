@@ -9,7 +9,7 @@
   text-align: center
 
   & rect,
-  & line 
+  & line
     fill: none
     stroke: white
 
@@ -43,15 +43,26 @@
     font-size: 1em
     padding: .5em
     text-decoration: none
-    transition: background-color .3s ease-in-out
+
+
+    &:link
+      color: rgba(255, 255, 255, 0.8)
+
+    &:visited
+      color: rgba(255, 255, 255, 0.8)
+      background-color: transparent;
 
     @media (min-width: 23.4375em)
       font-size: 2em
 
-    &:hover
-      background-color: rgba(255, 255, 51, 0.8)
-      border: none
-      color: black
+    @media (min-width: 48em)
+      transition: background-color .3s ease-in-out
+
+      &:hover
+        background-color: rgba(255, 255, 51, 0.8)
+        border: none
+        color: black
+
 
   @media (min-height: 600px)
     &:after
@@ -63,7 +74,3 @@
       position: absolute
       right: 0
       width: 100%
-  
-
-
- 
