@@ -1,0 +1,64 @@
+#rendia > div
+  background-image: url(../img/rendia-strong-brand.jpg)
+  background-position: 50% 0
+  background-repeat: no-repeat
+  background-size: cover
+  min-height: 100vh
+  position: relative
+  text-align: center
+
+  & rect,
+  & line 
+    fill: none
+    stroke: white
+
+  & nav
+    & a
+      color: #fff
+
+  & h1
+    color: #fff
+    font-size: 2em
+    line-height: 1.1em
+    padding: 1em
+    text-align: center
+
+    @media (min-width: 23.4375em)
+      font-size: 3em
+
+    @media (min-width: 48em)
+      font-size: 4em
+      padding: 1em // if calc() is not supported
+      padding: 0 calc(50% - 384px)
+      padding-bottom: 1em
+
+    @media (min-height: 64em)
+      padding: 3em 1em
+
+  & #cta
+    border: 1px solid rgba(255, 255, 255, 0.8)
+    color: rgba(255, 255, 255, 0.8)
+    display: inline-block
+    font-size: 1em
+    padding: .5em
+    text-decoration: none
+    transition: background-color .3s ease-in-out
+
+    @media (min-width: 23.4375em)
+      font-size: 2em
+
+    &:hover
+      background-color: rgba(74, 197, 184, 0.8)
+      border: none
+      color: white
+
+  @media (min-height: 600px)
+    &:after
+      background: linear-gradient(var(--rendiaBlue) 50%, var(--rendiaGreen) 50%)
+      background-size: 100% 15px
+      bottom: -10px
+      content: ''
+      height: 30px
+      position: absolute
+      right: 0
+      width: 100%

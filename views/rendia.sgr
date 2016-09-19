@@ -1,0 +1,16 @@
+extends(src='layouts/default.sgr')
+  block(name='seo')
+    title Rendia | Baltimore MD | Backroom
+    meta(
+      name='description'
+      content='Backroom creates deliberate brands for ambitious people.'
+    )
+  block(name='main')
+    div.tinted
+      header
+        a(href='/' id='mark')
+          include(src='includes/_mark.sgr')
+        // include(src='includes/_nav.sgr')
+      h1 Backroom creates brands for people who help doctors empower their patients
+      a(href='https://blog.rendia.com/strong-brand/' id='cta')
+        | Launch Brand
