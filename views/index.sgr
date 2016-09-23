@@ -14,4 +14,5 @@ extends(src='layouts/default.sgr')
       h1 Backroom creates brands for people who collect Emmys
       a(href='http://www.earlylightmedia.com/blog/new-brand' id='cta')
         | Launch Brand
+      a(href='rendia' id='next') next brand
 
