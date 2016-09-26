@@ -1,0 +1,16 @@
+extends(src='layouts/default.sgr')
+  block(name='seo')
+    title Blog | Backroom
+    meta(
+      name='description'
+      content='Our thoughts on branding.'
+    )
+  block(name='main')
+    div
+      header
+        a(href='/' id='mark')
+          include(src='includes/_mark.sgr')
+        // include(src='includes/_nav.sgr')
+    ul
+    each(loop='post of posts.items')
+      li {{ post.fields.title }}
