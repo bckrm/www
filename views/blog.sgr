@@ -11,9 +11,10 @@ extends(src='layouts/default.sgr')
         a(href='/' id='mark')
           include(src='includes/_mark.sgr')
         // include(src='includes/_nav.sgr')
-    ul
-    each(loop='post of posts.items')
-      h2 {{ post.fields.title }}
-      p
-        | {{ post.fields.body.substring(0, 400) }} ... 
-        a(href='{{ post.fields.mediumUrl }}') read more on Medium
+
+    main
+      each(loop='post of posts.items')
+        h2:a(href='{{ post.fields.mediumUrl }}') {{ post.fields.title }}
+        p
+          | {{ post.fields.body.substring(0, 250) }} ... 
+          a(href='{{ post.fields.mediumUrl }}') read more on Medium
