@@ -13,4 +13,7 @@ extends(src='layouts/default.sgr')
         // include(src='includes/_nav.sgr')
     ul
     each(loop='post of posts.items')
-      li {{ post.fields.title }}
+      h2 {{ post.fields.title }}
+      p
+        | {{ post.fields.body.substring(0, 400) }} ... 
+        a(href='{{ post.fields.mediumUrl }}') read more on Medium
