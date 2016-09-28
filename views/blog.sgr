@@ -15,6 +15,5 @@ extends(src='layouts/default.sgr')
     main
       each(loop='post of posts.items')
         h2:a(href='{{ post.fields.mediumUrl }}') {{ post.fields.title }}
-        p
-          | {{ post.fields.body.substring(0, 250) }} ... 
-          a(href='{{ post.fields.mediumUrl }}') read more on Medium
+        p {{ post.fields.body.substring(0, 250) }} ... 
+        a(href='{{ post.fields.mediumUrl }}' id='more') read more on Medium
