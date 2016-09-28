@@ -55,20 +55,24 @@ footer
   padding: 3em 1em 1em
   text-align: center
 
+  & p
+    padding-top: 2em
+
+    & a
+      border-bottom: 1px solid transparent
+      color: gray
+      text-decoration: none
+      transition: all .25s ease
+
+      &:hover
+        border-bottom-color: gray
+
   @media (min-width: 48em)
 
     & p
       padding: 1em // if calc() is not supported
       padding: 0 calc(50% - 288px)
       padding-top: 2em
-
-  & a
-    color: currentColor
-    text-decoration: none
-
-    &:hover
-      text-decoration: underline
-
 
   & small
     display: inline-block

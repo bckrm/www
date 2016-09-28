@@ -17,7 +17,8 @@ html(lang='en-us')
       block(name='footer')
         footer
           p(md)
-            | Backroom creates deliberate brands for ambitious people. We believe great brands come from smarts, collaboration, art and iteration.
+            | Backroom creates deliberate brands for ambitious people. We believe great brands come from smarts, collaboration, art and iteration. 
+          p:a(href='blog') Read our blog.
           #adr
             p 2835 O'Donnell Street, Suite 201, Baltimore, MD 21224
             p
