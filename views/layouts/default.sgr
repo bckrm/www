@@ -18,7 +18,10 @@ html(lang='en-us')
         footer
           p(md)
             | Backroom creates deliberate brands for ambitious people. We believe great brands come from smarts, collaboration, art and iteration. 
-          p:a(href='blog') Read our blog.
+          if(condition='pageId != "blog"')
+            p:a(href='blog') Read our blog.
+          else
+            p:a(href='/') Return home. 
           #adr
             p 2835 O'Donnell Street, Suite 201, Baltimore, MD 21224
             p
