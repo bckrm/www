@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: [new Records({
     addDataTo: locals,
-    posts: { url: 'https://cdn.contentful.com/spaces/5b0pqhu33f9d/entries?access_token=3ca35275e1d8a3a642c38143b59341bc727defc76e5e7893fd6f948b569ecabe&content_type=2wKn6yEnZewu2SCCkus4as' }
+    posts: { url: 'https://cdn.contentful.com/spaces/5b0pqhu33f9d/entries?access_token=ff9a716e1b77a8b1f0cf83df5eea3ab94b1051a6ad0ac65309a39e3f506decf9&content_type=2wKn6yEnZewu2SCCkus4as' }
   })],
   postcss: (ctx) => {
     return cssStandards({ webpack: ctx })
