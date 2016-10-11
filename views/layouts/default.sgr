@@ -16,8 +16,8 @@ html(lang='en-us')
       block(name='main')
       block(name='footer')
         footer
-          p(md)
-            | Backroom creates deliberate brands for ambitious people. We believe great brands come from smarts, collaboration, art and iteration. 
+          p
+            | {{ heros.items[3].fields.title }}
           if(condition='pageId != "blog"')
             p:a(href='blog') Read our blog.
           else
