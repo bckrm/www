@@ -1,0 +1,17 @@
+extends(src='layouts/default.sgr')
+  block(name='seo')
+    title Chalk+Chisel | Baltimore MD | Backroom
+    meta(
+      name='description'
+      content='Backroom creates deliberate brands for ambitious people.'
+    )
+  block(name='main')
+    div
+      header
+        a(href='/' id='mark')
+          include(src='includes/_mark.sgr')
+        // include(src='includes/_nav.sgr')
+      #hero
+        h1 {{ heros.items[2].fields.title }}
+        a(href='https://chalkchisel.com/blog/chalk-chisel-est-2015' id='cta')
+          | Launch Brand

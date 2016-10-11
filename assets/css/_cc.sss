@@ -1,0 +1,55 @@
+#cc > div
+  background-image: url(../img/cc-impression.svg)
+  background-repeat: no-repeat
+  background-size: 50vmax
+  min-height: 100vh
+  position: relative
+
+  & rect,
+  & line 
+    fill: none
+    stroke: #000
+
+  & nav
+    & a
+      color: #000
+
+  & #hero
+    padding: 1em
+
+    @media (min-width: 48em)
+      padding: 1em // if calc() is not supported
+      padding: 0 calc(50% - 384px)
+      padding-bottom: 1em
+
+    & h1
+      color: #000
+      font-size: 2em
+      line-height: 1.1em
+      padding-bottom: 1em
+
+      @media (min-width: 23.4375em)
+        font-size: 2.5em
+
+      @media (min-width: 48em)
+        font-size: 4em
+
+      @media (min-height: 64em)
+        padding: 3em 1em
+
+    & #cta
+      border: 1px solid #000
+      color: #000
+      font-size: 1em
+      padding: 0.3em
+      text-decoration: none
+      transition: background-color .3s ease-in-out
+
+      @media (min-width: 23.4375em)
+        font-size: 2em
+
+      &:hover
+        background-color: rgba(168, 168, 168, 0.55)
+        border: none
+        color: white
+
