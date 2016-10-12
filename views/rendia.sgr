@@ -1,9 +1,9 @@
 extends(src='layouts/default.sgr')
   block(name='seo')
-    title Rendia | Baltimore MD | Backroom
+    title Rendia Rebrand | Backroom
     meta(
       name='description'
-      content='Backroom creates deliberate brands for ambitious people.'
+      content='Backroom guides Rendia through rebrand and name change.'
     )
   block(name='main')
     div.tinted

@@ -1,9 +1,9 @@
 extends(src='layouts/default.sgr')
   block(name='seo')
-    title Chalk+Chisel | Baltimore MD | Backroom
+    title Chalk+Chisel Rebrand | Backroom
     meta(
       name='description'
-      content='Backroom creates deliberate brands for ambitious people.'
+      content='Backroom rebrands and renames Chalk+Chisel.'
     )
   block(name='main')
     div
