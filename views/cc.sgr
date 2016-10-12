@@ -13,5 +13,6 @@ extends(src='layouts/default.sgr')
         // include(src='includes/_nav.sgr')
       #hero
         h1 {{ heros.items[2].fields.title }}
+        p {{ heros.items[4].fields.title }}
         a(href='https://chalkchisel.com/blog/chalk-chisel-est-2015' id='cta')
           | Launch Brand
