@@ -15,3 +15,5 @@ extends(src='layouts/default.sgr')
       div
         h1 {{ testimonials.items[0].fields.body }}
         p -- {{ testimonials.items[0].fields.attribution }}
+    section.hero.out
+      h1 {{ heros.items[6].fields.title }}
