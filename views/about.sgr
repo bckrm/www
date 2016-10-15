@@ -1,0 +1,13 @@
+extends(src='layouts/default.sgr')
+  block(name='seo')
+    title About | Backroom
+    meta(
+      name='description'
+      content='We create brands for bold companies that inspire people.'
+    )
+  block(name='main')
+    header
+      include(src='includes/_mark.sgr')
+      include(src='includes/_nav.sgr')
+    section(id='hero')
+      h1 {{ heros.items[5].fields.title }}

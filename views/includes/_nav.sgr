@@ -1,4 +1,5 @@
 nav
   ul
+    li:a(href='/about') About
     li:a(href='/blog') Blog
     li:a(href='/contact') Contact
