@@ -8,8 +8,7 @@ extends(src='layouts/default.sgr')
   block(name='main')
     div.tinted
       header
-        a(href='/' id='mark')
-          include(src='includes/_mark.sgr')
+        include(src='includes/_mark.sgr')
         // include(src='includes/_nav.sgr')
       h1 {{ heros.items[0].fields.title }}
       a(href='http://www.earlylightmedia.com/blog/new-brand' id='cta')
