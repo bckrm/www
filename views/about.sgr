@@ -9,5 +9,9 @@ extends(src='layouts/default.sgr')
     header
       include(src='includes/_mark.sgr')
       include(src='includes/_nav.sgr')
-    section(id='hero')
+    section.hero
       h1 {{ heros.items[5].fields.title }}
+    section.hero.testimonial
+      div
+        h1 {{ testimonials.items[0].fields.body }}
+        p -- {{ testimonials.items[0].fields.attribution }}

@@ -38,9 +38,9 @@
     & a
       color: #000
 
-  & #hero
+  & .hero
     padding: 2em
-    min-height: 100vh
+    min-height: 70vh
 
     @media (min-width: 50em)
       padding: 1em // if calc() is not supported
@@ -51,20 +51,54 @@
       color: #000
       font-size: 2em
       line-height: 1.1em
-      padding-bottom: 1em
 
       @media (min-width: 23.4375em)
         font-size: 2.5em
 
       @media (min-width: 48em)
         font-size: 4em
-        padding-bottom: 0.3em
 
       @media (min-height: 64em)
         padding: 3em 1em
 
+  & .testimonial
+    background: #000
+    color: #fff
+    display: flex
+    flex-direction: column
+
+    & div
+      margin: auto
+
+    & h1
+      color: #fff
+      font-family: var(--bodyFontFamily)
+      line-height: 1.5
+      quotes: "“" "”" "‘" "’"
+      position: relative
+
+      &:before,
+      &:after
+        position: absolute
+
+      &:before
+        content: open-quote
+        left: -0.7em
+        top: -0.1em
+
+      &:after
+        content: close-quote
+        bottom: -0.6em
+
     & p
-      padding-bottom: 3em
+      padding-left: 2em
+      padding-top: 2em
+
+
+
+
+
+
 
     & #cta
       border: 1px solid #000
