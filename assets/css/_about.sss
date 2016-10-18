@@ -100,25 +100,38 @@
     & h1
       margin: auto
 
+  & .team
+    background: var(--backroomGrey)
+    display: flex
+
+    & h1
+      color: #fff
+      margin: auto
+
+      @media (min-width: 48em)
+        font-size: 3em
+
+  & .headshots
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    min-height: 100vh
+
+    @media (min-width: 50em)
+      justify-content: space-between
+      padding: 1em // if calc() is not supported
+      padding: 0 calc(50% - 384px)
+
+    & figcaption
+      margin: 1em 0
+      padding-left: 1em
+      
 
 
 
 
 
 
-    & #cta
-      border: 1px solid #000
-      color: #000
-      font-size: 1em
-      padding: 0.3em
-      text-decoration: none
-      transition: background-color .3s ease-in-out
 
-      @media (min-width: 23.4375em)
-        font-size: 1.5em
 
-      &:hover
-        background-color: rgba(168, 168, 168, 0.55)
-        border: none
-        color: white
 

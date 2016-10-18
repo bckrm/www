@@ -17,3 +17,28 @@ extends(src='layouts/default.sgr')
         p -- {{ testimonials.items[0].fields.attribution }}
     section.hero.out
       h1 {{ heros.items[6].fields.title }}
+    section.hero.team
+      h1 {{ heros.items[7].fields.title }}
+    section.headshots
+      figure
+        img(src='https://placehold.it/350x250')
+        figcaption
+          h3 Asa Smith
+          p Web Developer
+      figure
+        img(src='https://placehold.it/350x250')
+        figcaption
+          h3 Elisa Wise
+          p Project Manager
+      figure
+        img(src='https://placehold.it/350x250')
+        figcaption
+          h3 Josh Harding
+          p Creative Director
+      figure
+        img(src='https://placehold.it/350x250')
+        figcaption
+          h3 Kara Redman
+          p CEO
+    section.hero.out
+      h1 {{ heros.items[8].fields.title }}
