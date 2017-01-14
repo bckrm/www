@@ -1,0 +1,13 @@
+extends(src='layouts/default.sgr')
+  block(name='seo')
+    title Contact | Backroom
+    meta(
+      name='description'
+      content='Contact Backroom.'
+    )
+  block(name='main')
+    div
+      header
+        include(src='includes/_mark.sgr')
+        include(src='includes/_nav.sgr')
+
