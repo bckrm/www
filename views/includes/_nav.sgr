@@ -1,6 +1,4 @@
 nav
   ul
-    li:a(href='/about' class="{{ pageId === 'about' ? 'active' : 'hidden' }}") About
-    li:a(href='/blog' class="{{ pageId === 'blog' ? 'active' : 'hidden' }}") Blog
-    li:a(href='/contact' class="{{ pageId === 'contact' ? 'active' : 'hidden' }}") Contact
-
+    each(loop='item in ["about", "blog", "contact"]')
+      li:a(href='{{ item }}' class="{{ pageId === item ? 'active' : 'inactive'}}") {{ item }}
