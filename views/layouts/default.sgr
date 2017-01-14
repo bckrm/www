@@ -18,10 +18,6 @@ html(lang='en-us')
         footer
           p
             | {{ heros.items[3].fields.title }}
-          if(condition='pageId != "blog"')
-            p:a(href='blog') Read our blog.
-          else
-            p:a(href='/') Return home. 
           #adr
             p 2835 O'Donnell Street, Suite 201, Baltimore, MD 21224
             p
