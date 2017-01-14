@@ -21,22 +21,22 @@ extends(src='layouts/default.sgr')
       h1 {{ heros.items[7].fields.title }}
     section.headshots
       figure
-        img(src='https://placehold.it/350x250')
+        img(src='img/team/asa.jpg')
         figcaption
           h3 Asa Smith
           p Web Developer
       figure
-        img(src='https://placehold.it/350x250')
+        img(src='img/team/elisa.jpg')
         figcaption
           h3 Elisa Wise
           p Project Manager
       figure
-        img(src='https://placehold.it/350x250')
+        img(src='img/team/josh.jpg')
         figcaption
           h3 Josh Harding
           p Creative Director
       figure
-        img(src='https://placehold.it/350x250')
+        img(src='img/team/kara.jpg')
         figcaption
           h3 Kara Redman
           p CEO
