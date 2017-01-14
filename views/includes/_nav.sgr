@@ -1,5 +1,6 @@
 nav
   ul
-    li:a(href='/about') About
-    li:a(href='/blog') Blog
-    li:a(href='/contact') Contact
+    li:a(href='/about' class="{{ pageId === 'about' ? 'active' : 'hidden' }}") About
+    li:a(href='/blog' class="{{ pageId === 'blog' ? 'active' : 'hidden' }}") Blog
+    li:a(href='/contact' class="{{ pageId === 'contact' ? 'active' : 'hidden' }}") Contact
+
