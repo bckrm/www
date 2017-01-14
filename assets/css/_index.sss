@@ -8,14 +8,39 @@
   position: relative
   text-align: center
 
+  & header
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    min-height: 13em
+    padding: 2em 0
+
+    @media (min-width: 48em)
+      flex-direction: row
+      padding: 3em 3em
+
+    & #mark
+      display: initial
+      height: 6.25em
+      width: 6.25em
+
+  & nav
+    font-size: 1.2em
+    min-width: 15em
+
+    & ul
+      display: flex
+      justify-content: space-around
+    & li
+      list-style: none
+    & a
+      color: #fff
+      text-decoration: none
+
   & rect,
   & line 
     fill: none
     stroke: white
-
-  & nav
-    & a
-      color: #fff
 
   & h1
     color: #fff

@@ -9,7 +9,7 @@ extends(src='layouts/default.sgr')
     div
       header
         include(src='includes/_mark.sgr')
-        // include(src='includes/_nav.sgr')
+        include(src='includes/_nav.sgr')
 
     main
       each(loop='post of posts.items')

@@ -9,7 +9,7 @@ extends(src='layouts/default.sgr')
     div.tinted
       header
         include(src='includes/_mark.sgr')
-        // include(src='includes/_nav.sgr')
+        include(src='includes/_nav.sgr')
       h1 {{ heros.items[1].fields.title }}
       a(href='https://blog.rendia.com/strong-brand/' id='cta')
         | Launch Brand
