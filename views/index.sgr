@@ -1,6 +1,6 @@
 extends(src='layouts/default.sgr')
   block(name='seo')
-    title Brand Develoment | Baltimore MD | Backroom
+    title Brand Development | Baltimore MD | Backroom
     meta(
       name='description'
       content='Backroom creates deliberate brands for ambitious people.'
