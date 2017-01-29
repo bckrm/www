@@ -29,7 +29,7 @@ extends(src='layouts/default.sgr')
         img(src='img/team/elisa.jpg')
         figcaption
           h3 Elisa Wise
-          p Project Manager
+          p Producer
       figure
         img(src='img/team/josh.jpg')
         figcaption
