@@ -21,9 +21,9 @@ extends(src='layouts/default.sgr')
       h1 {{ heros.items[7].fields.title }}
     section.headshots
       figure
-        img(src='img/team/alexis.jpg')
+        img(src='img/team/mira.jpg')
         figcaption
-          h3 Alexis Brandolini
+          h3 Mira Lares 
           p Strategist
       figure
         img(src='img/team/asa.jpg')
