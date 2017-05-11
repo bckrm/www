@@ -1,12 +1,16 @@
 a(href='/' id='mark')
-  svg(
+  svg#Layer_1(
     version='1.1'
-    viewBox='0 0 120 120'
+    data-name='Layer 1'
+    viewBox='0 0 160.72 183.11'
     aria-labelledby='title'
     role='img'
   )
     title(id='title') Backroom mark
-    g
-      rect(x='10' y='10' width='100' height='100')
-      rect(x='40' y='40' width='40' height='40')
-      line(x1='65' y1='60' x2='80' y2='60')
+     
+      polygon.cls-1(points="0 33.58 0 100.97 0 103.62 0 149.44 74.64 115.87 74.64 0 0 33.58")
+      polygon.cls-2(points="74.64 67.24 74.64 134.63 74.64 137.28 74.64 183.1 0 149.53 0 33.66 74.64 67.24")
+      polygon.cls-1(points="160.72 149.31 86.08 115.73 86.08 67.25 160.72 100.83 160.72 149.31")
+      polygon.cls-2(points="160.72 101.04 86.08 134.63 86.08 183.1 160.72 149.53 160.72 101.04")
+      polygon.cls-1(points="160.72 82.07 86.08 48.48 86.08 0 160.72 33.59 160.72 82.07")
+      polygon.cls-2(points="160.72 33.66 86.08 67.24 86.08 115.73 160.72 82.14 160.72 33.66")
