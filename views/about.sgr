@@ -13,12 +13,10 @@ extends(src='layouts/default.sgr')
       h1 {{ heros.items[5].fields.title }}
     section.hero.testimonial
       div
-        h1 {{ testimonials.items[0].fields.body }}
+        h2 {{ testimonials.items[0].fields.body }}
         p -- {{ testimonials.items[0].fields.attribution }}
     section.hero.out
       h1 {{ heros.items[6].fields.title }}
-    section.hero.team
-      h1 {{ heros.items[7].fields.title }}
     section.headshots
       figure
         img(src='img/team/mira.jpg')
