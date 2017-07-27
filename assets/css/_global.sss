@@ -9,13 +9,11 @@ h1,
 h2,
 h3
   font-family: var(--headingFontFamily)
-  font-style:
-  font-weight:
 
 h1
   font-size: 225%
-  line-height:
-  margin-bottom:
+  line-height: 1.15em
+  margin-bottom: .7em
 
 h2
   font-size: 200%
@@ -30,34 +28,38 @@ h3
 header
   align-items: center
   display: flex
+  flex-direction: column
   justify-content: center
   padding-top: 1em
   color: inherit
+  min-height: 13em
 
   @media (min-width: 48em)
-    justify-content: flex-end
+    flex-direction: row
+    justify-content: space-between
     padding: 3em 3em
 
-nav
-  min-width: 10em
+  & nav
+    min-width: 15em
+    font-size: 1.2em
 
-  & ul
-    display: flex
-    justify-content: space-around
-  & li
-    list-style: none
-  & a
-    border-bottom: 1px solid transparent
-    color: #fff
-    text-decoration: none
-    text-transform: capitalize
-    transition: all .25s ease
+    & ul
+      display: flex
+      justify-content: space-around
+    & li
+      list-style: none
+    & a
+      border-bottom: 1px solid transparent
+      color: #fff
+      text-decoration: none
+      text-transform: capitalize
+      transition: all .25s ease
 
-    &:hover
-      border-bottom-color: #fff
+      &:hover
+        border-bottom-color: #fff
 
-  & a.active
-    border-bottom-color: #000
+    & a.active
+      border-bottom-color: #000
 
 /*  ================ footer ================ */
 

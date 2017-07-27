@@ -12,7 +12,6 @@ html(lang='en-us')
       link(rel='stylesheet' href='css/main.css')
 
   body(id='{{ pageId }}')
-      
       block(name='main')
       block(name='footer')
         footer
