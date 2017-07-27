@@ -1,0 +1,21 @@
+extends(src='layouts/default.sgr')
+  block(name='seo')
+    title Gundalow Juice | Backroom
+    meta(
+      name='description'
+      content=''
+    )
+
+  block(name='main')
+    header
+      include(src='includes/_mark.sgr')
+      include(src='includes/_nav.sgr')
+
+    section.content
+      #case-study-desc
+        h1 Gundalow Juice
+        p Gundalow Juice is a Baltimore-based cold pressed juice company that embraces the full spectrum of life’s experiences. We created a custom e-commerce website and brand framework that repositions them as an “anti-juice-fad” juice company. 
+      figure
+        img(src='img/case-studies/gundalow-juice/gj-casestudy.png')
+
+ 
