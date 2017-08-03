@@ -8,32 +8,33 @@
   },
   "bugs": "https://github.com/bckrm/backroom-www/issues",
   "dependencies": {
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "babel-preset-env": "^1.4.0",
-    "image-webpack-loader": "^3.3.1",
-    "postcss-placehold": "^1.2.0",
-    "reshape-standard": "^1.1.0",
-    "spike-css-standards": "^1.0.0",
+    "reshape-standard": "^3.0.0",
+    "spike": "^2.0.0",
+    "spike-css-standards": "^3.0.0",
+    "spike-js-standards": "^2.0.2",
+    "spike-optimize": "^0.1.2",
     "spike-page-id": "^1.0.0",
-    "spike-records": "^1.0.1",
-    "webpack": "^2.5.1"
+    "spike-records": "^2.0.0",
+    "sugarml": "^0.6.0",
+    "sugarss": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "rimraf": "^2.5.4",
+    "rimraf": "^2.6.1",
     "snazzy": "^7.0.0",
-    "spike": "^1.3.0",
-    "spike-core": "^1.3.0",
     "standard": "^10.0.2"
   },
-  "homepage": "https://github.com/bckrm/backroom-www",
+  "homepage": "https://github.com/asasmith/deps-update",
   "main": "app.js",
-  "private": "true",
-  "repository": "https://github.com/bckrm/backroom-www",
+  "private": true,
+  "repository": "https://github.com/asasmith/deps-update",
   "scripts": {
     "lint": "standard | snazzy",
     "precommit": "npm run lint -s",
     "pretest": "npm run lint -s",
-    "test": "NODE_ENV=test ava"
+    "test": "NODE_ENV=test ava",
+    "start": "spike watch",
+    "build": "spike compile",
+    "prod": "NODE_ENV=production spike compile -e production"
   }
 }
