@@ -19,11 +19,6 @@ extends(src='layouts/default.sgr')
       h1 {{ heros.items[6].fields.title }}
     section.headshots
       figure
-        img(src='img/team/mira.jpg')
-        figcaption
-          h3 Mira Lares 
-          p Strategist
-      figure
         img(src='img/team/asa.jpg')
         figcaption
           h3 Asa Smith
@@ -43,5 +38,10 @@ extends(src='layouts/default.sgr')
         figcaption
           h3 Kara Redman
           p CEO
+      figure
+        img(src='img/team/mira.jpg')
+        figcaption
+          h3 Mira Lares 
+          p Strategist
     section.hero.out
       h1 {{ heros.items[8].fields.title }}
