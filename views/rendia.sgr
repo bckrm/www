@@ -13,3 +13,4 @@ extends(src='layouts/default.sgr')
       h1 {{ heros.items[1].fields.title }}
       a(href='https://blog.rendia.com/strong-brand/' id='cta')
         | Launch Brand
+      a(href='chalk-chisel' id='next') next brand

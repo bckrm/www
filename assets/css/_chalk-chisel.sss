@@ -1,4 +1,4 @@
-#cc > div
+#chalk-chisel > div
   background-image: url(../img/cc-impression.svg)
   background-repeat: no-repeat
   background-size: 50vmax
@@ -16,6 +16,8 @@
 
   & #hero
     padding: 1em
+    display: flex
+    flex-direction: column
 
     @media (min-width: 48em)
       padding: 1em // if calc() is not supported
@@ -48,6 +50,8 @@
       padding: 0.3em
       text-decoration: none
       transition: background-color .3s ease-in-out
+      width: 8em
+      align-self: center
 
       @media (min-width: 23.4375em)
         font-size: 1.5em

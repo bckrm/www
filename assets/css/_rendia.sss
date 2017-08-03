@@ -36,10 +36,8 @@
       color: #fff
       text-decoration: none
 
-  & rect,
-  & line 
-    fill: none
-    stroke: white
+  & polygon
+    fill: white
 
   & nav
     & a
@@ -59,10 +57,20 @@
       font-size: 4em
       padding: 1em // if calc() is not supported
       padding: 0 calc(50% - 384px)
-      padding-bottom: 1em
 
     @media (min-height: 64em)
       padding: 3em 1em
+
+  & #next
+    color: white
+    display: block
+    padding-top: 2em
+    margin: 0 auto
+    max-width: 6.5em
+    text-decoration: none
+
+    &:hover
+      border-bottom: 1px solid white
 
   & #cta
     border: 1px solid rgba(255, 255, 255, 0.8)
