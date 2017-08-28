@@ -25,6 +25,11 @@ extends(src='layouts/default.sgr')
         p Sabrina Dépestre
         a(href='mailto:sales@backroom.io') sales@backroom.io
 
+        h2 Location
+          p 2835 O'Donnell St
+          p Suite 201
+          p Baltimore MD 21224
+
       .col
         h2 follow us
         ul
