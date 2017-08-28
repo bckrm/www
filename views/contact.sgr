@@ -10,4 +10,26 @@ extends(src='layouts/default.sgr')
       header
         include(src='includes/_mark.sgr')
         include(src='includes/_nav.sgr')
+    .hero
+      h1 Backroom is a brand experience agency. 
+      p We design identity systems, messaging frameworks, websites, and activation plans for bold companies that change how people think and interact.
 
+    .contact
+      .col
+        h2 General Inquiries
+        ul
+          li: a(href='mailto:hello@backroom.io') hello@backroom.io
+          li: a(href='tel:1-410-949-2438') (410)949-2438
+
+        h2 New Business
+        p Sabrina Dépestre
+        a(href='mailto:sales@backroom.io') sales@backroom.io
+
+      .col
+        h2 follow us
+        ul
+          li: a(href='https://www.instagram.com/backroom.io') instagram 
+          li: a(href='https://github.com/bckrm') github
+          li: a(href='https://www.facebook.com/backroom.io/') facebook
+          li: a(href='https://twitter.com/backroom') twitter
+          li: a(href='https://www.linkedin.com/company-beta/3662505/') linkedIn

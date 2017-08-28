@@ -32,11 +32,27 @@
       &:hover
         border-bottom-color: #000
 
-  & rect,
-  & line 
-    fill: none
-    stroke: #000
+  & .hero 
+    max-width: 90%
+    margin: 2em auto 4em
 
-  & nav
-    & a
-      color: #000
+    @media (min-width: 48em)
+      max-width: 34em
+
+  & .contact
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    text-align: center
+
+    @media (min-width: 48em)
+      flex-direction: row
+
+    & .col
+      margin-bottom: 2em
+
+      & ul
+        margin-bottom: 1em
+
+      & li
+        text-transform: capitalize

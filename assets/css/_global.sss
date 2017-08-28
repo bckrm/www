@@ -9,6 +9,7 @@ h1,
 h2,
 h3
   font-family: var(--headingFontFamily)
+  text-transform: capitalize
 
 h1
   font-size: 225%
@@ -61,7 +62,21 @@ header
     & a.active
       border-bottom-color: #000
 
-/*  ================ footer ================ */
+/* ================ links ================= */
+a
+  text-decoration: none
+  color: inherit
+
+  &:visited,
+  &:active
+    color: inherit
+
+/* ================ lists ================= */
+
+ul
+  list-style: none
+
+/* ================ footer ================ */
 
 footer
   padding: 3em 1em 1em
