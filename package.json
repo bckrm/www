@@ -8,6 +8,7 @@
   },
   "bugs": "https://github.com/bckrm/backroom-www/issues",
   "dependencies": {
+    "interactive": "^0.1.9",
     "reshape-standard": "^3.0.0",
     "spike": "^2.0.0",
     "spike-css-standards": "^3.0.0",
