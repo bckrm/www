@@ -3122,6 +3122,10 @@ inquirer@^3.2.1:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
+interactive@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/interactive/-/interactive-0.1.9.tgz#6dd3e2f9a00341863bc7dd84afce9d191b6f9e8e"
+
 interpret@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.0.3.tgz#cbc35c62eeee73f19ab7b10a801511401afc0f90"
