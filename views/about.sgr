@@ -18,30 +18,12 @@ extends(src='layouts/default.sgr')
     section.hero.out
       h1 {{ heros.items[6].fields.title }}
     section.headshots
-      figure
-        img(src='img/team/asa.jpg')
-        figcaption
-          h3 Asa Smith
-          p Web Developer
-      figure
-        img(src='img/team/elisa.jpg')
-        figcaption
-          h3 Elisa Wise
-          p Producer
-      figure
-        img(src='img/team/josh.jpg')
-        figcaption
-          h3 Josh Harding
-          p Creative Director
-      figure
-        img(src='img/team/mira.jpg')
-        figcaption
-          h3 Mira Lares 
-          p Strategist
-      figure
-        img(src='img/team/kara.jpg')
-        figcaption
-          h3 Kara Redman
-          p CEO
+      each(loop='person in dato.team.sort((a, b) => a.position < b.position ? -1 : 1)')
+        figure
+          img(src='//{{ dato._meta.imgixHost + person.img.path }}')
+          figcaption
+            h3 {{ person.name }}
+            p {{ person.title }}
+
     section.hero.out
       h1 {{ heros.items[8].fields.title }}
