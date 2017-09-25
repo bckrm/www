@@ -8,10 +8,12 @@
   },
   "bugs": "https://github.com/bckrm/backroom-www/issues",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "interactive": "^0.1.9",
     "reshape-standard": "^3.0.0",
     "spike": "^2.0.0",
     "spike-css-standards": "^3.0.0",
+    "spike-datocms": "^2.2.2",
     "spike-js-standards": "^2.0.2",
     "spike-optimize": "^0.1.2",
     "spike-page-id": "^1.0.0",
