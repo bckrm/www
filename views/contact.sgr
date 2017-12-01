@@ -19,7 +19,6 @@ extends(src='layouts/default.sgr')
         h2 General Inquiries
         ul
           li: a(href='mailto:hello@backroom.io') hello@backroom.io
-          li: a(href='tel:1-410-949-2438') (410)949-2438
 
         h2 New Business
         p Sabrina Dépestre
