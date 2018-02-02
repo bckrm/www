@@ -1,0 +1,43 @@
+svg(
+  xmlns='http://www.w3.org/2000/svg'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  style='display:none'
+)
+
+  symbol(id='dockside-flag' viewBox='0 0 216 216')
+    path(style='fill:#f46178' path class='cls-1' d='M0,216H216V0H0Zm108-51.42A56.59,56.59,0,1,1,164.6,108a56.59,56.59,0,0,1-56.6,56.6')
+
+  symbol(id='harbor-voyage-flag' viewBox='0 0 216 216')
+    rect(style='fill:#407cca' class='cls-1' width='54.05' height='54.04')
+    rect(style='fill:#407cca' class='cls-1' x='54.05' y='54.03' width='54.04' height='54.04')
+    rect(style='fill:#407cca' class='cls-1' x='107.93' width='54.05' height='54.04')
+    rect(style='fill:#407cca' class='cls-1' x='161.97' y='54.03' width='54.03' height='54.04')
+    rect(style='fill:#407cca' class='cls-1' y='107.93' width='54.05' height='54.03')
+    rect(style='fill:#407cca' class='cls-1' x='54.05' y='161.96' width='54.04' height='54.04')
+    rect(style='fill:#407cca' class='cls-1' x='107.93' y='107.93' width='54.05' height='54.03')
+    rect(style='fill:#407cca' class='cls-1' x='161.97' y='161.96' width='54.03' height='54.04')
+
+  symbol(id='mainstay-flag' viewBox='0 0 216 216')
+    path.cls-1(style='fill:#0096a9' d='M0,216H216V0H0Zm173.84-42.14H42.16V42.15H173.84Z')
+
+  symbol(id='sailors-delight-flag' viewBox='0 0 216 216')
+    rect.cls-1(style='fill:#ef7622' width='216' height='45.1')
+    rect.cls-1(style='fill:#ef7622' y='85.45' width='216' height='45.12')
+    rect.cls-1(style='fill:#ef7622' y='170.89' width='216' height='45.12')
+
+  symbol(id='ss-veg-flag' viewBox='0 0 216 216')
+    path(style='fill:#82bc00' d='M0,216H216V0H0Zm108-1.28L1.27,108,108,1.28,214.75,108Z')
+
+  symbol(id='starboard-strawberry-flag' viewBox='0 0 216 216')
+    rect(style='fill:#ad3963' x='108.01' width='107.99' height='108')
+    rect(style='fill:#ad3963' y='108' width='108' height='108.02')
+
+  symbol(id='watermelon-waves-flag' viewBox='0 0 216 216')
+    rect(style='fill:#9bdab9' width="88.48" height="86.86")
+    rect(style='fill:#9bdab9' x="127.52" width="88.48" height="86.86")
+    rect(style='fill:#9bdab9' y="125.89" width="88.48" height="90.11")
+    rect(style='fill:#9bdab9' x="127.52" y="125.89" width="88.48" height="90.11")
+
+  symbol(id='oscar-flag' viewBox='0 0 216 216')
+    polygon(style='fill:#c42126' points="216 216 0 0 216 0 216 216")
+    polygon(style='fill:#fed208' points="216 216 0 216 0 0 216 216")
