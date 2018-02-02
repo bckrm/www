@@ -7,15 +7,39 @@ extends(src='layouts/default.sgr')
     )
 
   block(name='main')
-    header
-      include(src='includes/_mark.sgr')
-      include(src='includes/_nav.sgr')
+    #header
+      header
+        include(src='includes/_mark.sgr')
+        include(src='includes/_nav.sgr')
 
-    section.content
-      #case-study-desc
-        h1 Gundalow Juice
-        p Gundalow Juice is a Baltimore-based cold pressed juice company that embraces the full spectrum of life’s experiences. We created a custom e-commerce website and brand framework that repositions them as an “anti-juice-fad” juice company. 
+      #hero
+        h1 Gundalow Juice is a Baltimore-based cold pressed juice company that embraces the full spectrum of life's experiences. We created a custom e-commerce website and brand framework that repositions them as an "anti-juice-fad" juice company.
+
+    section#main
       figure
-        img(src='img/case-studies/gundalow-juice/gj-casestudy.png')
+        img(src='/img/case-studies/gundalow-juice/gj-box-jump.png')
+        .wrapper
+          h2 Incredible nutrition from fresh, bountiful produce.
+          p Made with a handful of meticulously chosen ingredients by local founder and nutritional scientist Dana Sicko, Gundalow Juice doesn’t pretend to be anything it’s not. The product lineup was designed to be accessible during every part of the day—from performance training to workday to cocktail mixers—and does not hold back from calling out the juice cleanse craze for being an unhealthy fad.
 
- 
+    section#gallery
+      figure
+        img(src='/img/case-studies/gundalow-juice/gj-mobile-gallery.png')
+
+        .wrapper
+          h2 From in-store to online
+          p We wanted to build a online experience that replicated elements of shopping in store. We skipped the product index page and created a product shelf that visitors could scroll through. Upon clicking a juice, visitors can find information on it while learning the brand’s flag icon system, which was inspired by the international maritime flag code.
+
+    section#flags
+      figure
+        img(src='/img/case-studies/gundalow-juice/flags.png')
+
+        .wrapper
+          h2 Fueling ambitions
+          p We established a voice for Gundalow Juice that hits the sweet spot. By combining the heroic qualities of the brand’s ambition and the high quality and taste of the juice itself, we produced a confident voice and monochromatic color palette. Plus, a friendly illustration style and juice-inspired secondary colors come to life through interactive features on the website.
+
+    section#icons
+      figure
+        img(src='/img/case-studies/gundalow-juice/icons.png')
+
+    include(src='includes/_gj-icon-sprite.sgr')
