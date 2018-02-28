@@ -1,0 +1,63 @@
+extends(src='layouts/default.sgr')
+  block(name='seo')
+    title Volo City | Backroom
+    meta(
+      name='description'
+      content=''
+    )
+
+  block(name='main')
+    #header
+      header
+        include(src='includes/_mark.sgr')
+        include(src='includes/_nav.sgr')
+
+      #hero
+        h1 Volo City started in 2010 with a small team of players on Federal Hill Park playing bocce volo. It was the company's first ever league sport, a form of overhand or "fly" bocce they'd play on grass fields.
+
+    section.copy-block
+      p This 16-person team knew that more people craved the social interaction and connectedness surrounding sports. They made it their mission to create an environment where anyone could be the best player on the team no matter their age, race, or athletic ability.
+      p Now, the company has grown from a 16-person team to over 125,000 members strong across seven cities — and counting!
+
+    section#banner-full-width
+      img(src='/img/case-studies/volo-city/dev-team.jpg')
+
+    section#banner-split
+      figure
+        img(src='/img/case-studies/volo-city/v-white.svg')
+
+      figure
+        img(src='/img/case-studies/volo-city/volo-color-type.png')
+
+    section.copy-block
+      h2 a name to unify all cities
+      p “Volo City” is inspired by the same style of bocce ball that kick-started these leagues. Derived from the Italian word “to fly,” volo represents their mission to uplift our communities, boost relationships, and heighten the culture of their cities.
+
+    section.banner
+      img(src='/img/case-studies/volo-city/volo-city-blue.svg')
+      img(src='/img/case-studies/volo-city/mood-boards.jpg')
+
+    section.copy-block
+      h2 We play so kids can play free
+      p Volo City launched their first youth league at Herring Run Rec Center in Baltimore as an attempt to expand our adult leagues into a profitable arm for kids. The team quickly realized that in order to create a truly inclusive environment, they had to remove a major economic barrier — so they let kids play free.
+      p Now, Volo City Kids Foundation is a 501(c)3 non-profit organization, offering leagues in the seven cities they’re active in for kids ages 6-12 years of all genders, abilities, and races, to play at zero cost to their families.
+
+    section.banner
+      img(src='/img/case-studies/volo-city/volo-foundation.png')
+
+    section.copy-block
+      h2 Using technology to create real life social experiences
+      p There’s specific terminology that our team uses in order to not offend anyone, and it’s important to note that if an organization in another city wants to be a part of Volo City, they have to have the kids foundation and the social wellness at the heart of their mission.
+      p With Volo City, we wanted to create social equity by doing something — not just by sitting around and talking about it.
+    section.banner-flex
+      figure
+        img.shadow(src='/img/case-studies/volo-city/volo-city-posters-adult-1.png')
+
+      figure
+        img.shadow(src='/img/case-studies/volo-city/volo-city-posters-adult-2.png')
+
+      figure
+        img.shadow(src='/img/case-studies/volo-city/volo-city-posters-kids.png')
+
+    section.banner
+      img.shadow(src='/img/case-studies/volo-city/eventbright-header.png')
