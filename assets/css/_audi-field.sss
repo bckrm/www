@@ -1,0 +1,32 @@
+#audi-field
+  color: #fff
+
+  & #header
+    background: url(/img/case-studies/gundalow-juice/gj-header.jpg) center center no-repeat
+    background-size: cover
+    min-height: 90vh
+    background-color: var(--backroomGrey)
+    background-blend-mode: multiply
+    padding-bottom: 2em
+
+    @media screen and (--tablet)
+      min-height: 70vh
+
+    @media screen and (--tablet-land)
+      min-height: 100vh
+      padding-bottom: 4em
+
+    & header
+
+      @media screen and (--tablet-land)
+        max-width: 90%
+        margin: auto
+
+      & #mark
+        margin-bottom: 2em
+
+        & polygon
+          fill: #fff
+
+          &.cls-1
+            opacity: .5
