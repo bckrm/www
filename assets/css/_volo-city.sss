@@ -1,0 +1,145 @@
+#volo-city
+
+  @media screen and (min-width: 2000px)
+    font-size: 150%
+    line-height: 200%
+
+  & p
+    margin-bottom: 1em
+
+  & .shadow
+    box-shadow: var(--shadow)
+
+  & #header
+    background: url(/img/case-studies/volo-city/flag-football-2.jpg) center center no-repeat
+    background-size: cover
+    min-height: 90vh
+    background-color: var(--backroomGrey)
+    background-blend-mode: multiply
+    padding-bottom: 2em
+    color: #fff
+
+    @media screen and (--tablet)
+      min-height: 70vh
+
+    @media screen and (--tablet-land)
+      min-height: 100vh
+      padding-bottom: 4em
+
+    & header
+
+      @media screen and (--tablet-land)
+        max-width: 90%
+        margin: auto
+
+      & #mark
+        margin-bottom: 2em
+
+        & polygon
+          fill: #fff
+
+          &.cls-1
+            opacity: .5
+
+    & #hero
+      width: 80%
+      margin: auto
+
+      @media (--tablet)
+        transform: translatey(50%)
+
+      @media screen and (--laptop)
+        width: 60%
+        transform: translatey(100%)
+
+      & h1
+        font-weight: 700
+
+  & .copy-block
+    width: 90%
+    margin: 3em auto
+
+    @media screen and (--tablet)
+      width: 80%
+
+    @media screen and (--laptop)
+      width: 50%
+      margin: 6em auto 6em
+
+    & h2
+      text-transform: capitalize
+
+  & #banner-full-width
+    width: 100%
+
+    & img
+      width: 100%
+      margin-bottom: -16px
+
+  & #banner-split
+    width: 100%
+    display: flex
+    flex-direction: column
+
+    @media screen and (--tablet)
+      flex-direction: row
+
+    & figure
+      display: flex
+      flex-direction: column
+      min-height: 40vh
+
+      @media screen and (--tablet)
+        min-height: 40vh
+        width: 50%
+
+      &:first-of-type
+        background-color: #3b5cad
+        justify-content: center
+        align-items: center
+
+        @media screen and (--tablet)
+          align-items: flex-end
+
+        & img
+          width: 70%
+
+      & img
+        width: 100%
+        padding: 2em
+
+        @media screen and (--laptop)
+          width: 60%
+
+  & .banner
+    width: 95%
+    margin: 2em auto
+
+    @media screen and (--tablet)
+      width: 80%
+
+    & img
+      width: 100%
+      margin-bottom: 2em
+
+  & .banner-flex
+    width: 80%
+    display: flex
+    flex-direction: column
+    margin: auto
+
+    @media screen and (--tablet)
+      flex-direction: row
+      justify-content: space-between
+
+    @media screen and (--laptop-lg)
+      width: 80%
+
+    & figure
+
+      @media screen and (--tablet)
+        width: 32%
+
+      & img
+        width: 100%
+
