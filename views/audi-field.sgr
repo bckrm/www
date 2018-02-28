@@ -14,3 +14,6 @@ extends(src='layouts/default.sgr')
 
       #hero
         h1 D.C. United is a professional American soccer club who will start their 2018 season in their new home — Audi Field. We channeled the excitement that comes along with a brand new home when creating this captivatingly bold website for the new stadium.
+      
+    #main 
+      figure
