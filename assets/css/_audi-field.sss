@@ -1,7 +1,7 @@
 #audi-field
-  color: #fff
 
   & #header
+    color: #fff
     background: url(/img/case-studies/dcu/header-bg.jpg) center center no-repeat
     background-size: cover
     min-height: 90vh
@@ -30,3 +30,52 @@
 
           &.cls-1
             opacity: .5
+
+    & #hero
+      width: 80%
+      margin: 0 auto
+
+      @media (min-width: 1000px)
+        width: 60%
+
+      & h1
+        font-weight: 700
+
+  & section
+    margin-bottom: 3em
+    color: #000
+
+    & figure
+      width: 80%
+      margin: auto
+
+      @media screen and (--tablet-land)
+        margin-bottom: 6em
+        width: 65%
+
+      & img
+        width: 100%
+        margin-bottom: 2em
+
+      & .wrapper
+
+        @media screen and (--tablet-land)
+          max-width: 80%
+          margin: auto
+
+        & h2
+          font-weight: 700
+
+  & #main
+    position: relative
+
+    & figure
+      width: 90%
+      transform: translateY(-5%)
+
+      @media screen and (--tablet)
+        width: 80%
+        transform: translateY(-10%)
+
+      @media screen and (--tablet-land)
+        width: 60%

@@ -5,7 +5,7 @@ extends(src='layouts/default.sgr')
       name='description'
       content=''
     )
-  
+
   block(name='main')
     #header
       header
@@ -14,6 +14,29 @@ extends(src='layouts/default.sgr')
 
       #hero
         h1 D.C. United is a professional American soccer club who will start their 2018 season in their new home — Audi Field. We channeled the excitement that comes along with a brand new home when creating this captivatingly bold website for the new stadium.
-      
-    #main 
+
+    section#main
       figure
+        img(src='/img/case-studies/dcu/audi-field-homepage.jpg')
+        .wrapper
+          h2 Fan experience: the top priority
+          p From the looping video that showcases the pristine new Audi Field, to the Countdown to Kickoff timer on the homepage, this website is designed to speak to D.C. United fans.
+          p Instead of focusing on the darker portion of the D.C. United logo, we used the contrasting red and white to draw attention to various points of the website that fans would be searching for when landing on a page.
+
+
+    section.content
+      figure
+        img(src='/img/case-studies/dcu/audi-field-mobile-tiles.png')
+        .wrapper
+          h2 Simplifying the user’s journey
+          p We built the site’s navigation with the goal of helping visiting fans find exactly what they’re looking for without getting lost. On the “News and Media” page for instance, all press releases are depicted with photos from the event they describe with a black overlay, while photo galleries have relevant images serving as the album cover with a red overlay. This categorizes the different content on the page, thereby separating the two while maintaining page uniformity.
+
+
+    section.content
+      figure
+        img(src='/img/case-studies/dcu/audi-field-screenshots.png')
+        .wrapper
+          h2 We never compromise on the quality of work we deliver
+          p From project kick-off to the website launch, our team had exactly one month to build the Audi Field website from the ground up. For us, that meant waking up early and staying up late — we’re serious about the commitments we make.
+          p We used Slack to communicate internally as a team, and even used the app to hold daily update meetings with the D.C. United team in order to make sure their needs were met every step of the way.
+          p Regardless of timeline, we always deliver the best work to our clients. That’s why we continue to have so many strong relationships, including one with the D.C. United team.
