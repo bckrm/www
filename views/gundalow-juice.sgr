@@ -17,7 +17,7 @@ extends(src='layouts/default.sgr')
 
     section#main
       figure
-        img(src='/img/case-studies/gundalow-juice/gj-box-jump.png')
+        img(src='/img/case-studies/gundalow-juice/gj-homepage-crop-2.png')
         .wrapper
           h2 {{ dato.case_study[0].copyBlock[0].heading }}
           p  {{ dato.case_study[0].copyBlock[0].body }}

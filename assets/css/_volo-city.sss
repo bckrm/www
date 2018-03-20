@@ -100,9 +100,19 @@
 
         @media screen and (--tablet)
           align-items: flex-end
+          margin-top: .5rem
+
+        @media screen and (--laptop-lg)
+          margin-top: 0
 
         & img
           width: 70%
+
+          @media screen and (--laptop)
+            width: 55%
+
+          @media screen and (--laptop-lg)
+            width: 45%
 
       & img
         width: 100%
