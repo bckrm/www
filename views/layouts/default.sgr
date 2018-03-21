@@ -12,10 +12,10 @@ html(lang='en-us')
       link(rel='stylesheet' href='css/main.css')
 
   body(id='{{ pageId }}')
-      block(name='main')
-        small
-          a(href='http://madewithloveinbaltimore.org')
-            | Made with &#9825; in Baltimore.
+    block(name='main')
+      small
+        a(href='http://madewithloveinbaltimore.org')
+          | Made with &#9825; in Baltimore.
 
     block(name='javascript')
       script(src='js/main.js' defer)

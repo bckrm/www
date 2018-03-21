@@ -1,6 +1,6 @@
 extends(src='layouts/default.sgr')
   block(name='seo')
-    title Audi Field | Backroom
+    title D.C. United | Backroom
     meta(
       name='description'
       content=''

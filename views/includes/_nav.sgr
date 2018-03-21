@@ -1,4 +1,22 @@
 nav
-  ul
-    each(loop='item in ["about", "blog", "contact"]')
-      li:a(href='{{ item }}' class="{{ pageId === item ? 'active' : 'inactive'}}") {{ item }}
+
+  #nav-toggle
+    input(type='checkbox')
+    span
+    span
+    span
+
+  #nav-panel
+
+    ul#outer
+      li: a(href='/about') about
+      li
+        | case studies
+        ul(id='inner')
+          li: a(href='/dc-united') d.c. united
+          li: a(href='/volo-city') volo city
+          li: a(href='/gundalow-juice') gundalow juice
+      li: a(href='/blog') blog
+      li: a(href='/contact') contact
+
+

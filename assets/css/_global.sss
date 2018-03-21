@@ -34,6 +34,7 @@ h3
 
 /*  ================ header ================ */
 
+/*
 header
   align-items: center
   display: flex
@@ -70,6 +71,7 @@ header
 
     & a.active
       border-bottom-color: #000
+*/
 
 /* ================ links ================= */
 a
@@ -131,9 +133,19 @@ footer
   display: block
   height: 5em
   width: 5em
+  z-index: 2
+  margin-left: 2em
+
+  @media screen and (--tablet)
+    margin-left: 0
+
+  & .cls-1
+    fill: color(white a(50%))
+
+  & .cls-2
+    fill: white
 
 /*  ================ svg ================ */
-
 
 /*  ================ opt-ins ================ */
 

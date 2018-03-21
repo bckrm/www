@@ -1,47 +1,30 @@
 #about
 
   & header
-    display: flex
-    flex-direction: column
-    justify-content: space-between
-    min-height: 13em
-    padding: 2em 0
-
-    @media (min-width: 48em)
-      flex-direction: row
-      padding: 3em 3em
 
     & #mark
-      display: initial
-      height: 6.25em
-      width: 6.25em
 
       & .cls-1
         fill: #323E48
-  
+
+        &.nav-active
+          fill: color(white a(50%))
+
       & .cls-2
         fill: #4E5859
-      
 
-  & nav
-    font-size: 1.2em
-    min-width: 15em
+        &.nav-active
+          fill: white
 
-    & ul
-      display: flex
-      justify-content: space-around
-    & li
-      list-style: none
-    & a
-      color: #000
-      text-decoration: none
+    & #nav-toggle
 
-      &:hover
-        border-bottom-color: #000
+      & span
+        background: #323E48
 
-  & nav
-    & a
-      color: #000
+      & input
+
+        &:checked ~ span
+          background: white
 
   & .hero
     padding: 2em
@@ -134,7 +117,7 @@
     & figcaption
       margin: 1em 0
       padding-left: 2em
-      
+
 
 
 

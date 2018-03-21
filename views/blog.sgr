@@ -6,13 +6,12 @@ extends(src='layouts/default.sgr')
       content='Our thoughts on branding.'
     )
   block(name='main')
-    div
-      header
-        include(src='includes/_mark.sgr')
-        include(src='includes/_nav.sgr')
+    header
+      include(src='includes/_mark.sgr')
+      include(src='includes/_nav.sgr')
 
     main
       each(loop='post of posts.items')
         h2:a(href='{{ post.fields.mediumUrl }}') {{ post.fields.title }}
-        p {{ post.fields.body.substring(0, 250) }} ... 
+        p {{ post.fields.body.substring(0, 250) }} ...
         a(href='{{ post.fields.mediumUrl }}' id='more') read more on Medium
