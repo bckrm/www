@@ -25,8 +25,7 @@ extends(src='layouts/default.sgr')
         a(href='mailto:sales@backroom.io') sales@backroom.io
 
         h2 Location
-          p 2835 O'Donnell St
-          p Suite 201
+          p 2606 Foster Ave
           p Baltimore MD 21224
 
       .col
