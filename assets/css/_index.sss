@@ -1,12 +1,138 @@
 
-#index > div
-  background-image: url(../img/elm-throw-wins-award.jpg)
-  background-position: 50% 0
-  background-repeat: no-repeat
-  background-size: cover
-  min-height: 100vh
-  position: relative
-  text-align: center
+#index
+
+  & .hero
+    background-image: url(../img/audifield-hero.jpg)
+    background-position: 50% -2rem
+    background-repeat: no-repeat
+    background-size: cover
+    min-height: 100vh
+    position: relative
+    text-align: center
+
+  & .panel
+    display: flex
+    flex-direction: column
+    justify-content: center
+    min-height: 75vh
+
+    @media screen and (min-width: 750px)
+      align-items: center
+      min-height: 50vh
+      position: relative
+
+    @media screen and (min-width: 1000px)
+      align-items: flex-start
+      min-height: 75vh
+
+    & .panel__header
+      max-width: 90%
+      padding: 0 0 0 2rem
+
+      @media screen and (min-width: 650px)
+        margin: 0
+        padding: 0
+        transform: translateY(100%)
+
+      @media screen and (min-width: 1000px)
+        margin-left: 2rem
+
+    & .panel__cta
+      padding: 0 0 0 2rem
+      text-decoration: underline
+
+      @media screen and (min-width: 750px)
+        left: 75%
+        padding: 0
+        position: absolute
+        top: 25%
+        transform: translateY(-50%) translateX(-50%)
+
+    &.panel--contact-us
+      align-items: center
+      flex-direction: row
+
+      & .cta__email
+        &:nth-child(1)
+          margin-right: .5rem
+
+        &:nth-child(2)
+          margin-left: .5rem
+
+  & .img-gallery
+    display: flex
+    width: 100%
+
+    @media screen and (max-width: 600px)
+      flex-direction: column
+
+
+
+  & .img-gallery__figure
+    width: 100%
+
+    @media screen and (max-width: 600px)
+      margin-bottom: 2rem
+
+    @media screen and (min-width: 750px)
+      flex: 1 1 auto
+      width: calc(100% / 3)
+
+  & .img-gallery__img
+    width: 100%
+
+  & .features
+    display: flex
+
+    @media screen and (max-width: 600px)
+      flex-direction: column
+
+  & .feature-tile
+    display: flex
+    flex-direction: column
+    padding: 1rem 0
+
+    @media screen and (min-width: 750px)
+      min-height: 35vh
+
+    &:nth-child(1)
+      background-color: var(--backroomGrey)
+      color: white
+
+      & .feature-tile__link
+
+        &:after
+          background-color: var(--white)
+
+  & .feature-tile__wrap
+    margin: auto
+    width: 90%
+
+  & .feature-tile__title
+    margin-bottom: 1rem
+    text-transform: capitalize
+
+  & .feature-tile__body
+    margin-bottom: 1rem
+
+  & .feature-tile__link
+    position: relative
+
+    &:after
+      background-color: var(--backroomGrey)
+      content: ''
+      height: 1.25rem
+      position: absolute
+      top: 50%
+      transform: translateY(-50%) translateX(50%)
+      width: 1.25rem
+
+
+  & .panel--cta
+    align-items: center
+    display: flex
+    justify-content: center
+    min-height: 25vh
 
   & h1
     color: #fff
@@ -54,18 +180,3 @@
       background-color: rgba(255, 255, 51, 0.8)
       border: 1px solid transparent
       color: black
-
-  @media (min-height: 600px)
-    &:after
-      background: linear-gradient(var(--fadedBlack) 50%, var(--fadedWhite) 50%)
-      background-size: 100% 15px
-      bottom: -30px
-      content: ''
-      height: 60px
-      position: absolute
-      right: 0
-      width: 100%
-
-
-
-

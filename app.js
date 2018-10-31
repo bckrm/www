@@ -34,6 +34,10 @@ module.exports = {
       token: process.env.DATO_CMS_TOKEN,
       models: [
         {
+          name: 'homepage',
+          json: 'homepage.json',
+        },
+        {
           name: 'team',
           json: 'team.json'
         },

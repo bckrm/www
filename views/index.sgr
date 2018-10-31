@@ -6,12 +6,34 @@ extends(src='layouts/default.sgr')
       content='Backroom creates deliberate brands for ambitious people.'
     )
   block(name='main')
-    div.tinted
+    .hero
       header
         include(src='includes/_mark.sgr')
         include(src='includes/_nav.sgr')
-      h1 {{ heros.items[0].fields.title }}
-      a(href='http://www.earlylightmedia.com/blog/new-brand' id='cta')
-        | Launch Brand
-      a(href='rendia' id='next') next brand
+
+    section.panel
+      h2.panel__header.h1 {{ dato.homepage[0].heroMain }}
+      h2.panel__header.h2 {{ dato.homepage[0].heroSub }}
+
+    section.img-gallery
+      each(loop='image in dato.homepage[0].featureImgGallery')
+        figrue.img-gallery__figure
+          img.img-gallery__img(src='//{{ dato._meta.imgixHost + image.path }} ' alt='')
+
+    section.panel.panel--center
+      h2.panel__header.h2 {{ dato.homepage[0].secondaryHero }}
+      a.panel__cta(href='{{ dato.homepage[0].secondaryHeroCta[0].href }}') {{ dato.homepage[0].secondaryHeroCta[0].title }}
+
+    section.features
+      each(loop='item in dato.homepage[0].feature')
+        section.feature-tile
+          .feature-tile__wrap
+            h3.feature-tile__title {{ item.title }}
+            p.feature-tile__body {{ item.body }}
+            a(href='item.linkHref').feature-tile__link {{ item.linkTitle }}
+
+    section.panel.panel--contact-us
+      h3.h3.cta.cta__email Work with us:
+        a.h3.cta.cta__email(href='#')  hello@backroom.io
+
 
