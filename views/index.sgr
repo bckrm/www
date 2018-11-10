@@ -31,7 +31,7 @@ extends(src='layouts/default.sgr')
           .feature-tile__wrap
             h3.feature-tile__title {{ item.title }}
             p.feature-tile__body {{ item.body }}
-            a(href='item.linkHref').feature-tile__link {{ item.linkTitle }}
+            a.feature-tile__link(href='{{ item.linkHref }}') {{ item.linkTitle }}
 
     section.panel.panel--contact-us
       h3.h3.cta.cta__email Work with us:
