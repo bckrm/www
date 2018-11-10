@@ -90,6 +90,7 @@
   & .feature-tile
     display: flex
     flex-direction: column
+    flex: 1 1 calc(100% / 3)
     padding: 1rem 0
 
     @media screen and (min-width: 750px)
@@ -105,6 +106,10 @@
           background-color: var(--white)
 
   & .feature-tile__wrap
+    display: flex
+    flex-direction: column
+    height: 80%
+    justify-content: space-between
     margin: auto
     width: 90%
 

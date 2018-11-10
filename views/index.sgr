@@ -16,9 +16,10 @@ extends(src='layouts/default.sgr')
       h2.panel__header.h2 {{ dato.homepage[0].heroSub }}
 
     section.img-gallery
-      each(loop='image in dato.homepage[0].featureImgGallery')
-        figrue.img-gallery__figure
-          img.img-gallery__img(src='//{{ dato._meta.imgixHost + image.path }} ' alt='')
+      each(loop='item in dato.homepage[0].featuredWorkGallery')
+        figure.img-gallery__figure
+          a.img-gallery__link(href='{{ item.featuredLink }}')
+            img.img-gallery__img(src='//{{ dato._meta.imgixHost + item.featuredImage.path }} ' alt='')
 
     section.panel.panel--center
       h2.panel__header.h2 {{ dato.homepage[0].secondaryHero }}
