@@ -6,7 +6,7 @@ extends(src='layouts/default.sgr')
       content='Backroom creates deliberate brands for ambitious people.'
     )
   block(name='main')
-    .hero
+    .hero(style='background-image: url(//{{ dato._meta.imgixHost + dato.homepage[0].heroBgImg.path }})')
       header
         include(src='includes/_mark.sgr')
         include(src='includes/_nav.sgr')
