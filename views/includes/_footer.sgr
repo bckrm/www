@@ -2,7 +2,6 @@ footer
   p
     | {{ heros.items[3].fields.title }}
   #adr
-    p 2606 Foster Ave, Baltimore, MD 21224
     p
       a(href='tel:+14109292438') (410) 929-2438
         |  &#10070; 
