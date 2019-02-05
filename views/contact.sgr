@@ -21,7 +21,6 @@ extends(src='layouts/default.sgr')
           li: a(href='mailto:hello@backroom.io') hello@backroom.io
 
         h2 New Business
-        p Sabrina Dépestre
         a(href='mailto:sales@backroom.io') sales@backroom.io
 
       .col
